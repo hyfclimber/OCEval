@@ -44,8 +44,8 @@
 }
 
 
-- (char)read {
-    char result = EOF;
+- (unichar)read {
+    unichar result = EOF;
     
     if (_length && _offset < _length) {
         result = [_string characterAtIndex:self.offset];

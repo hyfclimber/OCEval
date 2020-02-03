@@ -15,7 +15,7 @@
 
 - (instancetype)initWithString:(NSString *)s;
 
-- (char)read;
+- (unichar)read;
 
 - (void)unread;
 - (void)unread:(NSUInteger)count;
